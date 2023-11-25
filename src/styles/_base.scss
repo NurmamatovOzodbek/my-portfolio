@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--bg-body-dark);
+}
+li {
+  list-style: none;
+}
+
+a {
+  font-family: 'DM Sans', sans-serif;
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  // width: 100%;
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+:root {
+  --bg-body-dark: #191919;
+  --clr-a7-dark: #a7a7a7;
+  --clr-h1-dark: #d9d9d9;
+  --clr-ccc-dark: #ccc;
+  --clr-white-dark: #fff;
+}
